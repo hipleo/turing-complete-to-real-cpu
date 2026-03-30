@@ -14,8 +14,9 @@
 - Next: Starting Arithmetic and Memory section
 
 ### 30 March 2026 – Finished 15 levels in arithmetics and in memory combined.
--Learned bytes
--Made an adder
--Time in game 2.3 hours
--Next: Finish up both of these sections
+- Learned bytes
+- Made an adder
+- I also learnt about the differant coloured wires
+- Time in game 2.3 hours
+- Next: Finish up both of these sections
 
