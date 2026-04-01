@@ -20,3 +20,10 @@
 - Time in game 2.3 hours
 - Next: Finish up both of these sections
 
+### 1 April 2026 – A couple of extra levels
+- WHYYY DO the BITS AND THE BYTES USE DIFFERANT PARTS, I WAS STUCK ON A LEVEL BECAUSE I WAS USING THE WRONG SWITCHES. I ONLY REALIZED AFTER I CONVERTED AND DID A MESS.
+- Other than the understanding bits and bytes use differant components nothing special happend.
+- I think i will update when I get to something big. Break has started for a week or so, it will depend how much work I will be able to do all depends on family.
+
+
+
