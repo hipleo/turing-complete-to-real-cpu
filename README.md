@@ -21,9 +21,9 @@
 - Next: Finish up both of these sections
 
 ### 1 April 2026 – A couple of extra levels
-- WHYYY DO the BITS AND THE BYTES USE DIFFERANT PARTS, I WAS STUCK ON A LEVEL BECAUSE I WAS USING THE WRONG SWITCHES. I ONLY REALIZED AFTER I CONVERTED AND DID A MESS.
-- Other than the understanding bits and bytes use differant components nothing special happend.
-- I think i will update when I get to something big. Break has started for a week or so, it will depend how much work I will be able to do all depends on family.
+- Finally understood why bits and bytes use completely different components. I was stuck on a few levels because I kept using the wrong switches and converters. I only understood after I started properly converting values and cleaned up a messy circuit.
+- Once I got that, the last few levels became much clearer, and easier.
+- No other major milestones this session. Easter break has just started, so the next update will depend on family plans. I will post again when I hit the next big section or come up with something interesting.
 
 
 
