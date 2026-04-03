@@ -25,5 +25,17 @@
 - Once I got that, the last few levels became much clearer, and easier.
 - No other major milestones this session. Easter break has just started, so the next update will depend on family plans. I will post again when I hit the next big section or come up with something interesting.
 
+##3 April 2026 – Arithmetic & Memory Completed##  
+- Finished the entire Arithmetic & Memory section.  
+- Built adders, registers, RAM, and almost everything that is needed for a CPU.  
+- The final level “Little Box”  killed me. Very small working space, needed to colour code just so I would not get confussed with the circuit.
+- 5.1 hours (a huge jump from the previous time per section)  
+
+
+##Biggest takeaway##  
+I now understand how memory actually works at the hardware level, bytes, registers, load/save signals, addressing, and everything else. This was at a differant level compared to the first chapter, I had to sit and think for a long time for something to work, also brute force did not work as well as in previous levels.
+
+##Next:## CPU Architecture chapter (real fun will start to happen).
+
 
 
