@@ -13,6 +13,9 @@
 - Time spent: 77 minutes
 - Next: Starting Arithmetic and Memory section
 
+- Screenshots:
+<img width="614" height="501" alt="Image" src="https://github.com/user-attachments/assets/f01e9c73-872d-4d85-9599-b4ce31e75f7f" />
+
 ### 30 March 2026 – Finished 15 levels in arithmetics and in memory combined.
 - Learned bytes
 - Made an adder
