@@ -13,8 +13,31 @@
 - Time spent: 77 minutes
 - Next: Starting Arithmetic and Memory section
 
-- Screenshots:
+- Screenshots(all the levels one by one):
 <img width="614" height="501" alt="Image" src="https://github.com/user-attachments/assets/f01e9c73-872d-4d85-9599-b4ce31e75f7f" />
+
+<img width="360" height="71" alt="Image" src="https://github.com/user-attachments/assets/a486c566-f797-4549-a116-80ff170bd6ac" />
+
+<img width="544" height="106" alt="Image" src="https://github.com/user-attachments/assets/b39892ed-3cad-456a-8ba5-66d853e7aea9" />
+
+<img width="562" height="133" alt="Image" src="https://github.com/user-attachments/assets/2b658f8e-93fc-4f5f-9a6c-a04acb464692" />
+
+<img width="497" height="232" alt="Image" src="https://github.com/user-attachments/assets/7e76a8a4-1351-45ad-9436-78164284f78c" />
+
+<img width="571" height="156" alt="Image" src="https://github.com/user-attachments/assets/01c6e9e3-b656-4700-b13a-64a64b1dba01" />
+
+<img width="491" height="178" alt="Image" src="https://github.com/user-attachments/assets/711e6364-7b2f-418f-ac9c-e6b699bdb60f" />
+
+<img width="558" height="144" alt="Image" src="https://github.com/user-attachments/assets/df6e63a0-77dc-4e44-ad10-0c21f6a8d078" />
+
+<img width="528" height="193" alt="Image" src="https://github.com/user-attachments/assets/48d6e311-3131-4d77-a138-a57d5066cc4f" />
+
+<img width="535" height="229" alt="Image" src="https://github.com/user-attachments/assets/c930e38a-3653-4d3c-bf34-0bd130b604b9" />
+
+<img width="558" height="246" alt="Image" src="https://github.com/user-attachments/assets/ef28deba-e8d9-4e74-a437-39752407e429" />
+
+<img width="521" height="144" alt="Image" src="https://github.com/user-attachments/assets/d65b503c-4f87-4783-9f7a-1e70e5816d17" />
+
 
 ### 30 March 2026 – Finished 15 levels in arithmetics and in memory combined.
 - Learned bytes
