@@ -1,67 +1,143 @@
-# turing-complete-to-real-cpu
-##GOAL##: My goal is to make a functional 8 bit CPU. Learning form the game Turing Complete and adapting into the real world. 
-##Started##: March 27, 2026 (Grade 10)  
-##Target##: Finished game + working hardware by end of Grade 11(hopefully).
+# From Turing Complete to a Real 8-Bit CPU
 
+**Goal:** Build a fully functional 8-bit CPU — starting from a video game, ending with real hardware.
 
-##updates##
+**Started:** March 27, 2026 — Grade 10  
+**Target:** Working CPU on a PCB by end of Grade 11
 
-### 27 March 2026 – Basic Logic Completed
-- Finished the entire Basic Logic section.
-- Built my first NAND gate and proved functional completeness.
-- Learned that any logic circuit can be made from just NAND gates.
-- Time spent: 77 minutes
-- Next: Starting Arithmetic and Memory section
+---
 
-- Screenshots(all the levels one by one):
-<img width="614" height="501" alt="Image" src="https://github.com/user-attachments/assets/f01e9c73-872d-4d85-9599-b4ce31e75f7f" />
+## The Plan
 
-<img width="360" height="71" alt="Image" src="https://github.com/user-attachments/assets/a486c566-f797-4549-a116-80ff170bd6ac" />
+1. **Turing Complete** — Learn CPU architecture from scratch through the game
+2. **Digital (simulator)** — Rebuild the CPU properly in a real EDA tool
+3. **PCB design** — Turn the simulation into actual hardware using KiCad
+4. **Run Snake** — Prove it works with something real
 
-<img width="544" height="106" alt="Image" src="https://github.com/user-attachments/assets/b39892ed-3cad-456a-8ba5-66d853e7aea9" />
+This repo documents every step, including mistakes.
 
-<img width="562" height="133" alt="Image" src="https://github.com/user-attachments/assets/2b658f8e-93fc-4f5f-9a6c-a04acb464692" />
+---
 
-<img width="497" height="232" alt="Image" src="https://github.com/user-attachments/assets/7e76a8a4-1351-45ad-9436-78164284f78c" />
+## Progress
 
-<img width="571" height="156" alt="Image" src="https://github.com/user-attachments/assets/01c6e9e3-b656-4700-b13a-64a64b1dba01" />
+| Section | Status | Time Spent |
+|---|---|---|
+| Basic Logic | Complete | 1.3 hrs |
+| Arithmetic & Memory | Complete | 7.4 hrs |
+| CPU Architecture | In Progress | — |
+| Digital Simulation | Not started | — |
+| PCB Design | Not started | — |
+| Assembly | Not started | — |
 
-<img width="491" height="178" alt="Image" src="https://github.com/user-attachments/assets/711e6364-7b2f-418f-ac9c-e6b699bdb60f" />
+---
 
-<img width="558" height="144" alt="Image" src="https://github.com/user-attachments/assets/df6e63a0-77dc-4e44-ad10-0c21f6a8d078" />
+## Chapter 1 — Basic Logic
+### March 27, 2026
 
-<img width="528" height="193" alt="Image" src="https://github.com/user-attachments/assets/48d6e311-3131-4d77-a138-a57d5066cc4f" />
+First session. Finished the entire Basic Logic section in one sitting.
 
-<img width="535" height="229" alt="Image" src="https://github.com/user-attachments/assets/c930e38a-3653-4d3c-bf34-0bd130b604b9" />
+The main thing I learned is something called **functional completeness**, the idea that you can build any logic circuit from nothing but NAND gates. Every AND, OR, XOR, NOT gate that exists can be made from combinations of NAND. This made me understand that everything can be made out of NAND.
 
-<img width="558" height="246" alt="Image" src="https://github.com/user-attachments/assets/ef28deba-e8d9-4e74-a437-39752407e429" />
+The levels started simple, a single NAND gate, and built up to more complex combinations. By the end I was combining gates to build things I didn't fully understand yet but could get working through logic and brute forcing random combinations until something worked.
 
-<img width="521" height="144" alt="Image" src="https://github.com/user-attachments/assets/d65b503c-4f87-4783-9f7a-1e70e5816d17" />
+**Time:** 77 minutes  
+**Takeaway:** NAND gates are all you need. Everything else is built on top of them.
 
+#### Screenshots
 
-### 30 March 2026 – Finished 15 levels in arithmetics and in memory combined.
-- Learned bytes
-- Made an adder
-- I also learnt about the differant coloured wires
-- Time in game 2.3 hours
-- Next: Finish up both of these sections
+*Level map — Basic Logic section fully completed (all green):*
+![Basic Logic level map](images/01_basic_logic_levelmap.png)
 
-### 1 April 2026 – A couple of extra levels
-- Finally understood why bits and bytes use completely different components. I was stuck on a few levels because I kept using the wrong switches and converters. I only understood after I started properly converting values and cleaned up a messy circuit.
-- Once I got that, the last few levels became much clearer, and easier.
-- No other major milestones this session. Easter break has just started, so the next update will depend on family plans. I will post again when I hit the next big section or come up with something interesting.
+*AND, OR and NAND gate combinations — circuits getting more complex:*
+![AND OR NAND gates](images/02_basic_logic_and_or_nand.png)
 
-##3 April 2026 – Arithmetic & Memory Completed##  
-- Finished the entire Arithmetic & Memory section.  
-- Built adders, registers, RAM, and almost everything that is needed for a CPU.  
-- The final level “Little Box”  killed me. Very small working space, needed to colour code just so I would not get confussed with the circuit.
-- 5.1 hours (a huge jump from the previous time per section)  
+*XOR gate creation — had to think harder about this one:*
+![XOR gates](??)
 
+---
 
-##Biggest takeaway##  
-I now understand how memory actually works at the hardware level, bytes, registers, load/save signals, addressing, and everything else. This was at a differant level compared to the first chapter, I had to sit and think for a long time for something to work, also brute force did not work as well as in previous levels.
+## Chapter 2 — Arithmetic & Memory
+### March 30 – April 3, 2026
 
-##Next:## CPU Architecture chapter (real fun will start to happen).
+This section was a completely different difficulty level. Basic Logic felt like a warm-up. Arithmetic and Memory actually made me sit and think for a long time before anything worked.
 
+### March 30 — First 15 Levels
 
+Got through roughly half the section. Learned about bytes, built my first adder, and spent way too long confused about why some levels use bit wires and others use byte wires. The coloured wire system in Turing Complete represents different data widths and I kept mixing them up.
 
+Once I actually understood that bits and bytes are handled by completely different components and you have to convert between them properly, everything became clearer. Should have figured that out sooner but the levels where I was stuck actually taught me more than the easy ones.
+
+**Time:** 2.3 hours
+
+*Progress map mid-way — roughly half complete, locked levels still showing red:*
+![Arithmetic Memory progress](images/04_arithmetic_memory_progress.png)
+
+*Full adder — first time building real binary addition from scratch:*
+![Full adder circuit](images/05_full_adder.png)
+
+*8-bit adder (Adding Bytes) — chains 8 full adders together to add two full bytes:*
+![Adding bytes circuit](images/06_adding_bytes.png)
+
+### April 3 — Section Complete
+
+Finished everything. Built adders, registers, RAM, an input selector, a signed negator, a logic engine, and more. The jump from Basic Logic to this was massive — 5.1 hours in a single section compared to 1.3 hours for the first one.
+
+The final level, **Little Box**, genuinely killed me. The workspace was tiny and I had to build something complex inside it. Spent a long time on it but eventually got it.
+
+**Time:** 5.1 hours  
+**Takeaway:** I now understand how memory actually works at the hardware level — registers, load/save signals, addressing, all of it. This wasn't just clicking through puzzles anymore. I had to think for some time before things started to work.
+
+*Section fully completed — all levels green:*
+![Arithmetic Memory complete](images/07_arithmetic_memory_complete.png)
+
+*Input Selector — routes one of two 8-bit inputs to the output based on a control signal:*
+![Input selector](images/08_input_selector.png)
+
+*Signed Negator — flips the sign of an 8-bit number using two's complement (NOT all bits, then add 1):*
+![Signed negator](images/09_signed_negator.png)
+
+*Logic Engine — performs AND, OR, NOT operations on bytes, selected by an opcode:*
+![Logic engine](images/10_logic_engine.png)
+
+*Little Box — the final level. Tight space, lots of components, colour-coded everything just to survive it:*
+![Little Box](images/11_little_box.png)
+
+---
+
+## Chapter 3 — CPU Architecture
+### In Progress
+
+This is where everything from the first two chapters comes together into an actual CPU. The components I've already built — adders, registers, memory — are the building blocks. Now I'm connecting them into something that can fetch an instruction, decode it, and execute it.
+
+Updates coming as I progress through this section.
+
+---
+
+## What's Next After the Game
+
+Once the CPU Architecture section is done, the plan is:
+
+**Step 1 — Rebuild in Digital (circuit simulator)**  
+Take everything I designed in Turing Complete and rebuild it in [Digital](https://github.com/hneemann/Digital) — a proper EDA simulation tool. This produces clean schematics and lets me verify the design before touching any hardware.
+
+**Step 2 — Design a PCB in KiCad**  
+Turn the simulation into a real PCB layout. Order it from JLCPCB. The goal is something small, clean and portable — not a breadboard that falls apart in a bag.
+
+**Step 3 — Write an assembler**  
+Define my own instruction set (ISA) and write a Python script that converts human-readable assembly into the binary my CPU runs.
+
+**Step 4 — Run Snake**  
+The final proof that the CPU actually works — program it to run Snake. Display output, input handling, game loop, the whole thing.
+
+---
+
+## Resources I've Found Useful
+
+- [Turing Complete](https://store.steampowered.com/app/1444480/Turing_Complete/) — the game this whole project started with
+- [Digital](https://github.com/hneemann/Digital) — the simulator I'll use to rebuild the CPU
+- [Ben Eater's 8-bit CPU series](https://eater.net/8bit) — YouTube series that heavily inspired the hardware phase
+- [KiCad](https://www.kicad.org/) — for PCB design
+
+---
+
+*This project is being documented as it happens. Last updated: April 2026*
