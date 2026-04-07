@@ -51,9 +51,8 @@ The levels started simple, a single NAND gate, and built up to more complex comb
 *AND, OR and NAND gate combinations — circuits getting more complex:*
 ![AND OR NAND gates](images/02_basic_logic_and_or_nand.png)
 
-*XOR gate creation — had to think harder about this one:*
-![XOR gates](??)
-
+*XOR gate built from OR, NAND and AND — both inputs split into OR and NAND, their outputs fed into AND:*
+![XOR gate](images/03_basic_logic_xor_gates.png)
 ---
 
 ## Chapter 2 — Arithmetic & Memory
