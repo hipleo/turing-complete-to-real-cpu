@@ -24,7 +24,7 @@ This repo documents every step, including mistakes.
 |---|---|---|
 | Basic Logic | Complete | 1.3 hrs |
 | Arithmetic & Memory | Complete | 7.4 hrs |
-| CPU Architecture | In Progress | — |
+| CPU Architecture | Complete | 9.7 hrs |
 | Programming | In Progress | — |
 | CPU Architecture 2 | Not Started | — |
 | Functions | Not Started | — |
@@ -116,7 +116,7 @@ This is where everything from the first two chapters comes together into an actu
 
 Finished the entire CPU Architecture chapter! Built and connected every major component: Arithmetic Engine, Registers, Instruction Decoder, Program Counter, and the full control logic. Unlocked the **first working 8-bit computer** — it’s now a complete, functional CPU that can run real programs.  
 
-![CPU Architecture Complete – First Working 8-bit Computer]()
+![CPU Architecture Complete – First Working 8-bit Computer](images/12_First_working_computer.png)
 
 **Biggest takeaway**  
 This was the hardest chapter so far. Everything finally came together into one machine. I now have a real 8-bit CPU built completely from NAND gates. The moment the “Working Computer” component lit up felt amazing.
