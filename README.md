@@ -25,6 +25,10 @@ This repo documents every step, including mistakes.
 | Basic Logic | Complete | 1.3 hrs |
 | Arithmetic & Memory | Complete | 7.4 hrs |
 | CPU Architecture | In Progress | — |
+| Programming | In Progress | — |
+| CPU Architecture 2 | Not Started | — |
+| Functions | Not Started | — |
+| Assembly Challenges | Not Started | — |
 | Digital Simulation | Not started | — |
 | PCB Design | Not started | — |
 | Assembly | Not started | — |
@@ -104,23 +108,32 @@ The final level, **Little Box**, genuinely killed me. The workspace was tiny and
 
 ---
 
-## Chapter 3 — CPU Architecture
-### In Progress
+## Chapter 3 — CPU Architecture 
 
 This is where everything from the first two chapters comes together into an actual CPU. The components I've already built — adders, registers, memory — are the building blocks. Now I'm connecting them into something that can fetch an instruction, decode it, and execute it.
 
-Updates coming as I progress through this section.
+### 13 April 2026 – Section Complete
+
+Finished the entire CPU Architecture chapter! Built and connected every major component: Arithmetic Engine, Registers, Instruction Decoder, Program Counter, and the full control logic. Unlocked the **first working 8-bit computer** — it’s now a complete, functional CPU that can run real programs.  
+
+![CPU Architecture Complete – First Working 8-bit Computer]()
+
+**Biggest takeaway**  
+This was the hardest chapter so far. Everything finally came together into one machine. I now have a real 8-bit CPU built completely from NAND gates. The moment the “Working Computer” component lit up felt amazing.
+
+**Next**  
+Programming & Assembly chapter — time to actually write code for the computer I just built.
 
 ---
 
 ## What's Next After the Game
 
-Once the CPU Architecture section is done, the plan is:
+Once the game(at least CPU Architecture 2) is done, the plan is:
 
 **Step 1 — Rebuild in Digital (circuit simulator)**  
 Take everything I designed in Turing Complete and rebuild it in [Digital](https://github.com/hneemann/Digital) — a proper EDA simulation tool. This produces clean schematics and lets me verify the design before touching any hardware.
 
-**Step 2 — Design a PCB in KiCad**  
+**Step 2 — Design a PCB in KiCad, or an FPGA depending on location and if on break, or both**  
 Turn the simulation into a real PCB layout. Order it from JLCPCB. The goal is something small, clean and portable — not a breadboard that falls apart in a bag.
 
 **Step 3 — Write an assembler**  
