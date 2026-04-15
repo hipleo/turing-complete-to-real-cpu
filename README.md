@@ -1,5 +1,11 @@
 # From Turing Complete to a Real 8-Bit CPU
 
+Every single computer, from phones to supercomputers, are build on one single idea: you can make any logival operation from a single type of gat called a NAND gate. This project is my attempt to go from that idea to a working CPU, first from a video game simulation then in hardware. 
+
+I am using a game called Turing Complete to build each componet from scratch:  logic gates, adders, registers, RAM, and eventually a full CPU architecture. When I finish the game the goal is to replicate the design using physical components, and get it to work.
+
+This project was started by me in Grade 10 with no hardware experiance. The devlog bellow is the record of what I made, what I got wrong, and what will eventually come. The goal is to finish a working physical CPU by the end of Grade 11.
+
 **Goal:** Build a fully functional 8-bit CPU — starting from a video game, ending with real hardware.
 
 **Started:** March 27, 2026 — Grade 10  
