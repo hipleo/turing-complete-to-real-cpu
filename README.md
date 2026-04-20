@@ -142,7 +142,77 @@ Started the programming chapter. It is very differant from the previous chapters
 **Takeaway:** 
 Assembly is hard. Assembly is one of the most annoying things that I encountered. It is something that messes with your brain, things that on paper work do not work in the code. I must learn this language more.
 
-#### Screenshots
+#### Assembly code:
+##### Spacial invasion:
+
+5
+
+reg0_to_out
+
+1
+
+reg0_to_out
+
+1
+
+reg0_to_out
+
+1
+
+reg0_to_out
+
+0
+
+in_to_reg3
+
+15
+
+reg3_nez
+
+5
+
+reg0_to_out
+
+0
+
+131
+
+9
+
+reg3_nez
+
+3
+
+reg0_to_out
+
+0
+
+131
+
+9
+
+reg3_nez
+
+**Takeaway**:
+This level taught me the true difficulty of assembly. Everything else is logical and makes sense, but this. 
+
+
+
+##### Masking time:
+
+3
+
+reg0_to_reg2
+
+in_to_reg1
+
+and
+
+reg3_to_out
+
+**Takeaway**:
+Very easy, this level requires basic thinking.
+
 
 ## What's Next After the Game
 
