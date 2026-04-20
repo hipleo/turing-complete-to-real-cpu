@@ -132,6 +132,18 @@ Programming & Assembly chapter — time to actually write code for the computer 
 
 ---
 
+## Chapter 4 — Programming
+
+### April 20, 2026
+
+Started the programming chapter. It is very differant from the previous chapters, no hardware only assembly. Assembly is far less fun than hardware, it takes far longer to click for me due to its ambigous nature with how the programming language is written. The level Spacial Invasio took a massive amount of time and playing around, to be honest I started to look for help online and I used some binary code that someone posted on Reddit. It is far harder than it looks written down on paper, everyone got their own assembly language and they do not give keys so you just stare and wonder what is this supposed to mean.
+
+**Time:** 12.9 hours total since start
+**Takeaway:** 
+Assembly is hard. Assembly is one of the most annoying things that I encountered. It is something that messes with your brain, things that on paper work do not work in the code. I must learn this language more.
+
+#### Screenshots
+
 ## What's Next After the Game
 
 Once the game(at least CPU Architecture 2) is done, the plan is:
