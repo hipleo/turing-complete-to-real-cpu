@@ -31,8 +31,8 @@ This repo documents every step, including mistakes.
 | Basic Logic | Complete | 1.3 hrs |
 | Arithmetic & Memory | Complete | 7.4 hrs |
 | CPU Architecture | Complete | 9.7 hrs |
-| Programming | In Progress | — |
-| CPU Architecture 2 | Not Started | — |
+| Programming | Complete | 14.5 hrs |
+| CPU Architecture 2 | In Progress | — |
 | Functions | Not Started | — |
 | Assembly Challenges | Not Started | — |
 | Digital Simulation | Not started | — |
@@ -124,6 +124,8 @@ Finished the entire CPU Architecture chapter! Built and connected every major co
 
 ![CPU Architecture Complete – First Working 8-bit Computer](images/12_First_working_computer.png)
 
+**Time:** 5.2 hours
+
 **Biggest takeaway**  
 This was the hardest chapter so far. Everything finally came together into one machine. I now have a real 8-bit CPU built completely from NAND gates. The moment the “Working Computer” component lit up felt amazing.
 
@@ -138,7 +140,8 @@ Programming & Assembly chapter — time to actually write code for the computer 
 
 Started the programming chapter. It is very differant from the previous chapters, no hardware only assembly. Assembly is far less fun than hardware, it takes far longer to click for me due to its ambigous nature with how the programming language is written. The level Spacial Invasio took a massive amount of time and playing around, to be honest I started to look for help online and I used some binary code that someone posted on Reddit. It is far harder than it looks written down on paper, everyone got their own assembly language and they do not give keys so you just stare and wonder what is this supposed to mean.
 
-**Time:** 12.9 hours total since start
+**Time:** 6.1 hours
+
 **Takeaway:** 
 Assembly is hard. Assembly is one of the most annoying things that I encountered. It is something that messes with your brain, things that on paper work do not work in the code. I must learn this language more.
 
@@ -197,21 +200,117 @@ reg3_nez
 This level taught me the true difficulty of assembly. Everything else is logical and makes sense, but this. 
 
 
+### April 25, 2026
 
-##### Masking time:
+I Finally finished the programming chapter. I found out the brute force works also here, the level called The Maze shows how brute force is fantastic.
 
-3
+**Time:** 8.4 hours
 
-reg0_to_reg2
+**Takeaway:** 
+Assembly is still hard, it is still frustrating but now I have found the joy of satisfaction when the computer does what it was meant to do. The level Storage Cracker was really easy, just add one and guess, The Maze on the other hand was frustration in its pure form. Brute force and spam are absolutly fantastic ways of finishing a level, they are not efficent in the slightest but they are the only thing that I am able to pull of for now.
 
-in_to_reg1
+#### Assembly code:
 
-and
+
+
+##### Storage Cracker:
+
+0
+
+reg0_to_reg3
 
 reg3_to_out
 
+1
+
+reg0_to_reg1
+
+label add_and_guess
+
+reg3_to_reg2
+
+add
+
+reg3_to_out
+
+add_and_guess
+
+always_jmp
+
 **Takeaway**:
-Very easy, this level requires basic thinking.
+The deffinition of brute force, adds one number starting from zero until the password is guessed.
+
+##### The Maze:
+
+1
+
+reg0_to_reg1
+
+label check_left
+
+0
+
+reg0_to_out
+
+4
+
+reg0_to_out
+
+
+in_to_reg3
+
+move_forward
+
+reg3_eqz
+
+turn_right
+
+jump
+
+
+label move_forward
+
+1
+
+reg0_to_out
+
+check_left
+
+jump
+
+
+label turn_right
+
+2
+
+reg0_to_out
+
+    
+4
+
+reg0_to_out
+
+	
+    
+in_to_reg3
+
+move_forward
+
+reg3_eqz
+
+turn_right
+
+jump
+
+**Takeaway**:
+This code follows the left wall, it checks the left wall first then straight then right by doing so the robot will hug the wall and move forward. The robot will also fire the action command to make sure that it will not miss the door of the maze. 
+
+---
+
+## Chapter 5 — CPU Architecture 2 
+
+
+
 
 
 ## What's Next After the Game
