@@ -309,7 +309,43 @@ This code follows the left wall, it checks the left wall first then straight the
 
 ## Chapter 5 — CPU Architecture 2 
 
+### May 5, 2026
 
+I did the first two levels of CPU Architecture 2, I defined the XOR gate and I made the 8 bit constant. The XOR gate was some assembly code, it did not take long to implement. The 8 bit constant took even less time to implement.
+
+##### XOR:
+
+in_to_reg0
+
+reg0_to_reg1
+
+in_to_reg0
+
+reg0_to_reg2
+
+nand
+
+reg3_to_reg4
+
+
+or
+
+
+reg4_to_reg1
+
+reg3_to_reg2
+
+and
+
+
+reg3_to_reg0
+
+reg0_to_out
+
+**Takeaway**:
+This code is not optimised to its full potential it is just following what I built before with the physical parts but in writing.
+
+**Time:** 1 hour
 
 
 
