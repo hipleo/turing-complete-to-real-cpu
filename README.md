@@ -352,7 +352,7 @@ This code is not optimised to its full potential it is just following what I bui
 
 I continued on with CPU Architecture 2. I made a byte xor which I previously did not have, it was a rather straight forward process. I also encountered the equals, greater than and less than. These components are relativly easy to solve if you put your mind to it. The hardest was less than as I did it before I did greater than, so it was a learning level that helped me understand the way to create greater than.
 
-
+![Less than gate](images/13_Less_than.png)
 
 **Takeaway**:
 We are back to hardware, it is fantastic.
