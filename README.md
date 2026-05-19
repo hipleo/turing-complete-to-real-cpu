@@ -363,6 +363,7 @@ We are back to hardware, it is fantastic.
 
 I continued on with CPU Architecture 2. I did only two levels, the first level that I did was Wide Instructions. Wide Instructions was a easy level that did not take long and was quite clear to solve. The second level that I did, on the other hand was pure agony. Wire Spaghetti was a level that made me rethink who I am, I was stuck on it for so long that I can not even say. It was all possible but then I got stuck not knowing that you can change the increment that the counter does. This caused me to be stuck on the level for far longer than needed, in the end I found about the possiblity of doing that and I saved myself a whole load of time.
 
+![Wire Spaghetti](images/14_Wire_spaghetti.png)
 
 **Takeaway**:
 I need to make sure I find out about the possibilities to change settings of components, as that stole a lot of time from me. 
