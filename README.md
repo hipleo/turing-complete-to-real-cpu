@@ -370,6 +370,12 @@ I need to make sure I find out about the possibilities to change settings of com
 
 **Time:** 7 hours
 
+### May 31, 2026
+
+I continued with CPU CPU Architecture 2. I am almost at the end of this part. I have one final level for this part of the game. This was a very tiring time to play the game as I was sick.
+
+**Time:** 9 hours
+
 ## What's Next After the Game
 
 Once the game(at least CPU Architecture 2) is done, the plan is:
