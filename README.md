@@ -376,6 +376,11 @@ I continued with CPU CPU Architecture 2. I am almost at the end of this part. I 
 
 **Time:** 9 hours
 
+
+### July 2026 — Update
+
+I got distracted for a couple of weeks and when i came back i found Turing Complete had an update and that broke the save files. So I switched to the old version to recover my progress. I am currently working on the Conditionals level, the circuit is constantly breaking on me. I am close to making this level work. 
+
 ## What's Next After the Game
 
 Once the game(at least CPU Architecture 2) is done, the plan is:
