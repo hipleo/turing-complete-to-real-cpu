@@ -32,8 +32,8 @@ This repo documents every step, including mistakes.
 | Arithmetic & Memory | Complete | 7.4 hrs |
 | CPU Architecture | Complete | 9.7 hrs |
 | Programming | Complete | 14.5 hrs |
-| CPU Architecture 2 | In Progress | — |
-| Functions | Not Started | — |
+| CPU Architecture 2 | Complete | 28.1 hrs |
+| Functions | In progress | — |
 | Assembly Challenges | Not Started | — |
 | Digital Simulation | Not started | — |
 | PCB Design | Not started | — |
@@ -372,18 +372,25 @@ I need to make sure I find out about the possibilities to change settings of com
 
 ### May 31, 2026
 
-I continued with CPU CPU Architecture 2. I am almost at the end of this part. I have one final level for this part of the game. This was a very tiring time to play the game as I was sick.
+I continued with CPU Architecture 2. I am almost at the end of this part. I have one final level for this part of the game. This was a very tiring time to play the game as I was sick.
 
 **Time:** 9 hours
-
 
 ### July 2026 — Update
 
 I got distracted for a couple of weeks and when i came back i found Turing Complete had an update and that broke the save files. So I switched to the old version to recover my progress. I am currently working on the Conditionals level, the circuit is constantly breaking on me. I am close to making this level work. 
 
+## Chapter 6 — Functions
+
+### July 9, 2026
+I Have finished the level Conditionals, and I have officially finished with the CPU Architecture 2. I am now on the Functions chapter, I have only completed two levels in the Functions chapter. The Hex racer level, which required me to say what the hex codes are and the Shift level which made me make a shifter of bytes to the left. These levels are overall simple and I am looking forward to what I will face in this chapter.
+
+
+**Time:** 9.6 hours(for the conditionals level) and 2 hours for the rest
+
 ## What's Next After the Game
 
-Once the game(at least CPU Architecture 2) is done, the plan is:
+Once the game(at least Functions) is done, the plan is:
 
 **Step 1 — Rebuild in Digital (circuit simulator)**  
 Take everything I designed in Turing Complete and rebuild it in [Digital](https://github.com/hneemann/Digital) — a proper EDA simulation tool. This produces clean schematics and lets me verify the design before touching any hardware.
