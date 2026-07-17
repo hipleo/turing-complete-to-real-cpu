@@ -388,6 +388,11 @@ I Have finished the level Conditionals, and I have officially finished with the 
 
 **Time:** 9.6 hours(for the conditionals level) and 2 hours for the rest
 
+### July 17, 2026
+I have finished two more levels. I completer RAM and Delay. The level Ram made me write some code to make the loading of RAM and the saving of RAM. overall this level was relativly difficult as I had to add a connection of and gates between the save and the program of the registers, I also had to add some or gates to the if equals, great than, and smaller than. Overall this was the level that took most of my time. Delay as a level was very easy it consistedof placing 3 NAND gates together and just connecting the other 2 NAND gates so they do nothing and just hang around so the circuit will be complete for the passing criteria. 
+
+**Time:** 3.5 hours
+
 ## What's Next After the Game
 
 Once the game(at least Functions) is done, the plan is:
