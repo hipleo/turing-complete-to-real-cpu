@@ -393,6 +393,11 @@ I have finished two more levels. I completer RAM and Delay. The level Ram made m
 
 **Time:** 3.5 hours
 
+### July 24, 2026
+I have not done much, I have completed one level. The level that I have completed is called stack. It is a push pop circuit. It works quite well and I am suprised that it was completer without major failers. 
+
+**Time:** 2.3 hours
+
 ## What's Next After the Game
 
 Once the game(at least Functions) is done, the plan is:
