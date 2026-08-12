@@ -33,9 +33,8 @@ This repo documents every step, including mistakes.
 | CPU Architecture | Complete | 9.7 hrs |
 | Programming | Complete | 14.5 hrs |
 | CPU Architecture 2 | Complete | 28.1 hrs |
-| Functions | In progress | — |
-| Assembly Challenges | Not Started | — |
-| Digital Simulation | Not started | — |
+| Functions | Completed | 19.4 hrs |
+| Digital Simulation | In progress | — |
 | PCB Design | Not started | — |
 | Assembly | Not started | — |
 
@@ -398,6 +397,9 @@ I have not done much, I have completed one level. The level that I have complete
 
 **Time:** 2.3 hours
 
+### August 12, 2026
+Today is a big day, I finished the Functions chapter in Turing Complete. With this news I am now able to move to stage 2 which is designing a CPU in a circuit simulator, from which I can export the design in verilog and run it in my FPGA.
+
 ## What's Next After the Game
 
 Once the game(at least Functions) is done, the plan is:
@@ -405,14 +407,16 @@ Once the game(at least Functions) is done, the plan is:
 **Step 1 — Rebuild in Digital (circuit simulator)**  
 Take everything I designed in Turing Complete and rebuild it in [Digital](https://github.com/hneemann/Digital) — a proper EDA simulation tool. This produces clean schematics and lets me verify the design before touching any hardware.
 
-**Step 2 — Design a PCB in KiCad, or an FPGA depending on location and if on break, or both**  
-Turn the simulation into a real PCB layout. Order it from JLCPCB. The goal is something small, clean and portable — not a breadboard that falls apart in a bag.
+### August 12, 2026
+This is the start of this stage, I have selected an FPGA to be the base of the CPU. The FPGA that I have selected is the Sipeed Tang Nano 20K, originally I was planning on getting the 9k but the 20k was cheaper because I had some discount and I found the board more future proof, the board also has a HDMI output port which I think is useful expesially since the test will be running snake, or any simple game.
+
+**Step 2 — Design an FPGA** 
 
 **Step 3 — Write an assembler**  
-Define my own instruction set (ISA) and write a Python script that converts human-readable assembly into the binary my CPU runs.
+Define my own instruction set and write a Python script that converts human readable assembly into the binary my CPU runs.
 
-**Step 4 — Run Snake**  
-The final proof that the CPU actually works — program it to run Snake. Display output, input handling, game loop, the whole thing.
+**Step 4 — Run Snake or any simple game**  
+The final proof that the CPU actually works.
 
 ---
 
@@ -425,4 +429,4 @@ The final proof that the CPU actually works — program it to run Snake. Display
 
 ---
 
-*This project is being documented as it happens. Last updated: April 2026*
+*This project is being documented as it happens. Last updated: August 2026*
