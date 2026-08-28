@@ -398,7 +398,9 @@ I have not done much, I have completed one level. The level that I have complete
 **Time:** 2.3 hours
 
 ### August 12, 2026
-Today is a big day, I finished the Functions chapter in Turing Complete. With this news I am now able to move to stage 2 which is designing a CPU in a circuit simulator, from which I can export the design in verilog and run it in my FPGA.
+Today is a big day, I finished the Functions chapter in Turing Complete. With this news I am now able to move to stage 2 which is designing a CPU in a circuit simulator, from which I can export the design in Verilog and run it in my FPGA.
+
+
 
 ## What's Next After the Game
 
@@ -408,7 +410,13 @@ Once the game(at least Functions) is done, the plan is:
 Take everything I designed in Turing Complete and rebuild it in [Digital](https://github.com/hneemann/Digital) — a proper EDA simulation tool. This produces clean schematics and lets me verify the design before touching any hardware.
 
 ### August 12, 2026
-This is the start of this stage, I have selected an FPGA to be the base of the CPU. The FPGA that I have selected is the Sipeed Tang Nano 20K, originally I was planning on getting the 9k but the 20k was cheaper because I had some discount and I found the board more future proof, the board also has a HDMI output port which I think is useful expesially since the test will be running snake, or any simple game.
+This is the start of this stage, I have selected an FPGA to be the base of the CPU. The FPGA that I have selected is the Sipeed Tang Nano 20K, originally I was planning on getting the 9k but the 20k was cheaper because I had some discount and I found the board more future proof, the board also has a HDMI output port which I think is useful especially since the test will be running snake, or any simple game.
+
+
+## Digital:
+
+### August 28, 2026
+In these two week I did simple circuits in digital to see how my skills translate from Turing Complete to Digital. The skills transferred relatively easily, and I was able to design some simple circuits without much difficulty. I will soon start to design necessary parts of a CPU in digital.
 
 **Step 2 — Design an FPGA** 
 
