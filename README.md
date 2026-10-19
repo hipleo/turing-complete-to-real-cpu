@@ -419,8 +419,9 @@ This is the start of this stage, I have selected an FPGA to be the base of the C
 In these two week I did simple circuits in digital to see how my skills translate from Turing Complete to Digital. The skills transferred relatively easily, and I was able to design some simple circuits without much difficulty. I will soon start to design necessary parts of a CPU in digital.
 
 ### October 19, 2026
-In this time I was unfortunatly unable to find much time to work on my project as I just started a new school and I had to do some adapting. This caused me to not have any time to work on my project, now however I had a spare minute and I was able to design a simple adder, I am aiming to be able to complete a part of a circuit with the pace that I had before, and finish the main design in not much time.
+In this time I was unfortunately unable to find much time to work on my project as I just started a new school and I had to do some adapting. This caused me to not have any time to work on my project, now however I had a spare minute and I was able to design a simple adder, I am aiming to be able to complete a part of a circuit with the pace that I had before, and finish the main design in not much time.
 
+![simple adder in digital](images/image.png)
 
 
 **Step 2 — Design an FPGA** 
